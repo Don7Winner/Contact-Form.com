@@ -1,0 +1,17 @@
+@media (max-width: 530px) {
+  form {
+    width: 400px;
+  }
+  .name {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  form {
+    width: 300px;
+  }
+  .query {
+    grid-template-columns: 1fr;
+  }
+}
